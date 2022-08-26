@@ -2,7 +2,7 @@
 <html lang="en-us">
 
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8" name="viewport" content="width=device=width,initial-scale=1" />
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>YazminBPortfolio</title>
 </head>
@@ -11,66 +11,80 @@
     <div class="header">
         <h1>Welcome To My Portfolio</h1>
         <div>
-            <div>
+            <nav>
                 <ul>
-                    <a href="About Me"> About Me</a>
+                    <li><a href="#about-me"> About Me</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#contact-me">Contact Me</a></li>
                 </ul>
-                <ul>
-                    <a href="Work">Work</a>
-                </ul>
-                <ul>
-                    <a href="Contact Me">Contact Me</a>
-                </ul>
-                <ul>
-                    <a href="Resume">Resume</a>
-                </ul>
-            </div>
+            </nav>
         </div>
     </div>
 
-    <img src="./assets/IMG_0503.jpeg" alt="A picture of Yazmin in Italy"/>
+    <img class='profile' src="./assets/IMG_0503.jpeg" alt="A picture of Yazmin in Italy" />
 
     <main>
-        <section>
-            <h2>About Me</h2>
-            <div>Hello my name is Yazmin and I currently work in Finance as a Personal Banker. The reason I decided to
-                enroll in UW Coding Bootcamp was because I was learning HTML and CSS on my own and discovered I really
-                enjoyed problem solving. I am happy to present my journey to you all. </div>
+        <section id="about-me">
+            <div class="about-me">
+                <h2>About Me</h2>
+                <div>Hello my name is Yazmin and I currently work in Finance as a Personal Banker. The reason I decided
+                    to
+                    enroll in UW Coding Bootcamp was because I was learning HTML and CSS on my own and discovered I
+                    really
+                    enjoyed problem solving. I am happy to present my journey to you all. </div>
+            </div>
         </section>
 
-        <section>
+        <section id="work">
             <h2>Work</h2>
-            <div>
-                <h4>HW Challenge 1</h4>
-            </div>
-            <div>
-                <h4>Future Projects</h4>
-            </div>
-            <div>
-                <h4>Future Projects</h4>
-            </div>
-            <div>
-                <h4>Future Projects</h4>
+            <div class="workbox-container">
+                <div class="work-box1">
+                    <h4>HW Challenge 1</h4>
+                    <img class='work-img' src="./assets/Screen Shot 2022-08-17 at 10.46.36 PM.png"
+                        alt='project 1 screenshot' />
+                    <a href="https://ybazail3.github.io/Refactor-code/">Index.HTML</a>
+                </div>
+                <div class="work-box">
+                    <h4>Future Projects</h4>
+                    <img class="work-img" src="./assets/download.png" alt="coming soon" />
+                </div>
+                <div class="work-box">
+                    <h4>Future Projects</h4>
+                    <img class="work-img" src="./assets/download.png" alt="coming soon" />
+                </div>
+                <div class="work-box">
+                    <h4>Future Projects</h4>
+                    <img class="work-img" src="./assets/download.png" alt="coming soon" />
+                </div>
             </div>
         </section>
 
-        <section>
-            <h2>Contact Me</h2>
-            <ul>
-                <li>
-                    <a href="(253)576-2474">Phone Number</a>
-                </li>
-                <li>
-                    <a href="yazminbazail@icloud.com">Email</a>
-                </li>
-                <li>
-                    <a href="GitHub">GitHub</a>
-                </li>
-                <li>
-                    <a href="LinkedIn">LinkedIn</a>
-                </li>
-            </ul>
+        <section id="resume">
+            <div class="resume">
+                <h2>Resume</h2>
+                <a
+                    href="https://docs.google.com/document/d/e/2PACX-1vTSYHSq4m39ag1eO1L3nJzhDHTeNGlPW7Dsetfk1bqeTd-ArZDl5WrheNRtGOMuAA/pub">Check
+                    Me Out</a>
+            </div>
         </section>
+
+        <section id="contact-me">
+            <div class="contact-me-container">
+                <h2>Contact Me</h2>
+                <ul>
+                    <li>(253)576-2474</li>
+                    <li>yazminbazail@icloud.com</li>
+                    <li>
+                        <a href="https://github.com/">GitHub</a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/feed/">LinkedIn</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
     </main>
 
     <footer class="footer">
